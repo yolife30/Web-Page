@@ -1,0 +1,60 @@
+@font-face{
+	font-family: "Cooper Std Black";
+	src: url(fonts/CooperBlackStd.otf);
+}
+body {
+	background: linear-gradient(to left, red, black);
+}
+
+.bg-light {
+    background-color: #e20e0e45!important;
+}
+
+.navbar-nav {
+	display: flex;
+	text-align: right;
+	
+}
+
+	ul,li {
+		color: #ffc107!important;
+		list-style: none;
+	}
+	a {
+		list-style: none;
+		color: #ffc107!important;
+	}	
+video {
+	display: flex;
+	align-items:flex-start;
+	justify-content: center;
+	align-content: center;
+}
+.input-group {
+	justify-content: center;
+
+}
+.btn {
+	width: 150px;
+	margin-top: 1em;
+	font-weight: bold;
+}
+.form-control {
+	margin-top: 1em;
+	margin-right: 1em;
+}
+h2,h3,h4,h5 {
+	color: #ffc107!important;
+}
+
+.carousel-inner {
+	display: flex;
+	align-content: center;
+	height: 300px;
+	width: 330px;
+}
+.media {
+	display: inline-flex;
+	align-items: space-between;
+}
+
